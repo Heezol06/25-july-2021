@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="resource/pawprint.png" type="image/x-icon">
+    <!-- bootstarp stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7e8030edb7.js" crossorigin="anonymous"></script>
+    <!-- customize css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img src="resource/cow.png" alt="" height="45" width="40" >
+              </a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-3 mb-1 mb-lg-0">
+                  <li class="nav-item me-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">Shop Now</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">Cammel</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">Horse</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">Cow</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">Cat</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link" href="#">Fish</a>
+                  </li>
+                  <li class="nav-item m">
+                    <a class="nav-link" href="#">Birds</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-1 rounded-pill" type="search" placeholder="Which annimal?" aria-label="Search" style="width: 400px">
+                  <button class="btn btn-outline-success  ms-2 me-3 " type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <ul class="navbar-nav ms-5 mb-1 mb-lg-0">
+                    <li class="nav-item me-2">
+                      <a class="nav-link active border-3" aria-current="page" href="#">
+                        <i class="fas fa-user-circle" ></i>
+                        <small>hello! sign in</small>
+                      </a>
+                    </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- main part start  -->
+    <main>
+        <section class="row mt-5 m-0 ">
+            <div class="col-lg-7 rounded p-0">
+                <div id="carouselExampleCaptions" class="carousel slide container-fluid p-0" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="resource/New folder/bnr1.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="resource/New folder/bnr2.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="resource/New folder/bnr3.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="resource/New folder/bnr4.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="resource/New folder/bnr5.jpg" class="img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-lg-5 bg-dark d-flex justify-content-center align-items-center rounded">
+                <div class="p-10">
+                    <h1 class="text-light">This is an animals shopping site</h1>
+                <p class="text-light">We love animal and those who love animal thay are welcome to our site.Save animal love animal and daily listen animal song my maroon 5 is make you chair you up every fucking day </p>
+               <!-- xxx -->
+               <div>
+                <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    Button with data-bs-target
+                  </button>
+                  
+                  <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title text-light" id="offcanvasExampleLabel">Animal List</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div class="text-light">
+                        Animals are multicellular, eukaryotic organisms in the biological kingdom Animalia. With few exceptions, animals consume organic material, breathe oxygen, are able to move, can reproduce sexually, and go through an ontogenetic stage in which their body consists of a hollow sphere of cells, the blastula, during embryonic development. Over 1.5 million living animal species have been described—of which around 1 million are insects—but it has been estimated there are over 7 million animal species in total. Animals range in length from 8.5 micrometres (0.00033 in) to 33.6 metres (110 ft). They have complex interactions with each other and their environments, forming intricate food webs. The scientific study of animals is known as zoology.
+                      </div>
+                      <div class="dropdown mt-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu text-light" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="#">Aardvark</a></li>
+                          <li><a class="dropdown-item" href="#">Addax</a></li>
+                          <li><a class="dropdown-item" href="#">Adelie Penguin</a></li>
+                          <li><a class="dropdown-item" href="#">African Elephant</a></li>
+                          <li><a class="dropdown-item" href="#">African Forest Elephant</a></li>
+                          <li><a class="dropdown-item" href="#">African Lions</a></li>
+                          <li><a class="dropdown-item" href="#">African Penguin</a></li>
+                          <li><a class="dropdown-item" href="#">African Spurred Tortoise</a></li>
+                          <li><a class="dropdown-item" href="#">African Wild Dog</a></li>
+                          <li><a class="dropdown-item" href="#">Allen’s Swamp Monkeys</a></li>
+                          <li><a class="dropdown-item" href="#">Alligator</a></li>
+                          <li><a class="dropdown-item" href="#">Allis Shad</a></li>
+                          <li><a class="dropdown-item" href="#">Alpine Ibex</a></li>
+                          <li><a class="dropdown-item" href="#">Amazonian Manatee</a></li>
+                          <li><a class="dropdown-item" href="#">American Oystercatcher Bird</a></li>
+                          <li><a class="dropdown-item" href="#">Anaconda Snake</a></li>
+                          <li><a class="dropdown-item" href="#">Ants</a></li>
+                          <li><a class="dropdown-item" href="#">Aquatic Warbler</a></li>
+                          <li><a class="dropdown-item" href="#">Arctic Wolf</a></li>
+                          <li><a class="dropdown-item" href="#">Armadillo</a></li>
+                          <li><a class="dropdown-item" href="#">Asian Elephant</a></li>
+                          <li><a class="dropdown-item" href="#">Asian Lion</a></li>
+                          <li><a class="dropdown-item" href="#">Atlantic Puffin</a></li>
+                          <li><a class="dropdown-item" href="#">Atlantic Spotted Dolphins</a></li>
+                          <li><a class="dropdown-item" href="#">Atlas Beetle</a></li>
+                          <li><a class="dropdown-item" href="#">Audubon’s Shearwater</a></li>
+                          <li><a class="dropdown-item" href="#">Australasian Grebe</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="shop">
+            <section class="row my-5">
+                <div class="col-lg-4 gx-2">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="resource/camel-1.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/camel-2.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/camel-3.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                        </div>
+                        <h1 class="border border-secondary text-light bg-dark">Cammel</h1>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-lg-4 gx-2 ">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="resource/horce-1.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/horse-2.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/horse-3.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                        </div>
+                        <h1 class="border border-secondary text-light bg-dark rounded">Horses</h1>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-lg-4 gx-2">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="resource/cow-1.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/cow-2.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/cow-3.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                        </div>
+                        <h1 class="border border-secondary text-light bg-dark rounded">Cows</h1>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </section>
+            <section class="row my-5">
+                <div class="col-lg-4 gx-2">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="resource/fish-1.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/fish-2.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/fish-3.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                        </div>
+                        <h1 class="border border-secondary text-light bg-dark rounded">Fishes</h1>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-lg-4 gx-2 ">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="resource/bird-1.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/bird-2.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/bird-3.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                        </div>
+                        <h1 class="border border-secondary text-light bg-dark rounded">Birds</h1>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-lg-4 gx-2">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="resource/cat-1.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/cat-2.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="resource/cat-3.jpg" class="d-block img-fluid" alt="...">
+                          </div>
+                        </div>
+                        <h1 class="border border-secondary text-light bg-dark rounded">Cat</h1>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </section>
+        </div> -->
+   <!-- cards  -->
+   <div class="row row-cols-1 row-cols-md-3 g-4 my-5 mx-2">
+    <div class="col">
+      <div class="card text-white bg-dark h-75">
+        <img src="resource/New folder/fish3.jpg"  class="card-img-top h-50" alt="...">
+        <div class="card-body">
+          <p class="card-title">Flounder</p>
+          <p class="card-text text-light">The name "flounder" is used for several only distantly related species</p>
+          <div  class=" animal-card-add-button text-dark text-center py-1 w-75">
+            <i class="fab fa-cc-visa "></i> <p class="d-inline">ADD TO CARD</p>
+          </div>
+          <div  class=" animal-card-wish-button text-dark text-center py-1 w-75 ">
+            <i class="fas fa-heart"></i> <p class="d-inline">ADD TO WISHLIST</p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center p-2 ">
+            <small class="text-primary">$65.00</small>
+            <div class="p-3">
+                <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-white bg-dark h-75">
+        <img src="resource/New folder/fish2.jpg"  class="card-img-top h-50" alt="...">
+        <div class="card-body">
+          <p class="card-title">Mako Shark</p>
+          <p class="card-text text-light">The shortfin mako shark, also known as the blue pointer or bonito shark, is a large mackerel shark.</p>
+          <div  class=" animal-card-add-button text-dark text-center py-1 w-75">
+            <!-- Button trigger modal -->
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <i class="fab fa-cc-visa "></i> <p class="d-inline">ADD TO CARD</p>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+            
+          </div>
+          <div  class=" animal-card-wish-button text-dark text-center py-1 w-75 ">
+            <i class="fas fa-heart"></i> <p class="d-inline">ADD TO WISHLIST</p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center p-2 ">
+            <small class="text-primary">$108.00</small>
+            <div class="p-3">
+                <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning "></i>
+            <i class="fas fa-star "></i>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-white bg-dark h-75">
+        <img src="resource/New folder/fish1.jpg"  class="card-img-top h-50" alt="...">
+        <div class="card-body">
+          <p class="card-title">Pompano</p>
+          <p class="card-text text-light">Pompanos are marine fishes in the genus Trachinotus in the family Carangidae.</p>
+          <div  class=" animal-card-add-button text-dark text-center py-1 w-75">
+            <i class="fab fa-cc-visa "></i> <p class="d-inline">ADD TO CARD</p>
+          </div>
+          <div  class=" animal-card-wish-button text-dark text-center py-1 w-75 ">
+            <i class="fas fa-heart"></i> <p class="d-inline">ADD TO WISHLIST</p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center p-2 ">
+            <small class="text-primary">$78.00</small>
+            <div class="p-3">
+                <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star "></i>
+            <i class="fas fa-star "></i>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+<section class="row">
+  <div class="col-lg-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="resource/New folder/cow1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/New folder/cow-2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/New folder/cow-3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="resource/New folder/fish1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/New folder/fish2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/New folder/fish3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="resource/New folder/horse2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/New folder/horse1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="resource/New folder/horse3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+    <!-- footer start  -->
+    <footer>
+
+    </footer>
+    <!-- script bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

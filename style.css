@@ -1,0 +1,19 @@
+body {
+  /* background-color: #628395; */
+}
+. {
+}
+.animal-card-add-button:hover {
+  background-image: linear-gradient(#da0037, #ff4081);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: auto;
+}
+.animal-card-wish-button:hover {
+  background-image: linear-gradient(#c0b6b9, #a57c89);
+  border-radius: 5px;
+  color: darkblue;
+  cursor: pointer;
+  margin: auto;
+}
